@@ -1,5 +1,4 @@
-//your JS code here. If required.
-document.getElementById("submit-button").addEventListener("submit", ()=>{
+document.getElementById("submit-button").addEventListener("click", ()=>{
 	const firstName = document.getElementById("first").value;
 	const lastName = document.getElementById("last").value;
 	const phoneNumber = document.getElementById("phone").value;
